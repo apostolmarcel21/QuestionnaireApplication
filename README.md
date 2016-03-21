@@ -17,17 +17,21 @@ The _*Questionnaire Application*_ contains a few simple flows:
 Here are a few screenshots from the application navigation: 
 
 In the above image it is displayed the panel with the question and possible answers.
+
 ![Image_1](/images/image1.png)
 
 After finishing the questionnaire, a message with *finish* button is presented.
 It also displays a *back* button for the case one wants to reiterate over its answers.
+
 ![Image_2](/images/image2.png)
 
 In the last page is printed the score.
 If the score is smaller than 50%, the message is written in red signaling that the test should be re-taken.
+
 ![Image_3](/images/image3.png)
 
 If the score is higher than 50%, the message is displayed in green.
+
 ![Image_4](/images/image4.png)
 
 Thanks!
