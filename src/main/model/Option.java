@@ -1,10 +1,11 @@
 package model;
-
+/**
+ * this class contains atributes, constructor, getters, setters and toString
+ */
 public class Option {		
 	private String text;
 	private boolean isCorrect;
 	private boolean isSelected = false;
-	
 	
 	public Option() {
 		super();
@@ -16,11 +17,9 @@ public class Option {
 		this.isCorrect = isCorrect;
 	}
 
-	
 	public boolean getIsSelected() {
 		return isSelected;
 	}
-
 
 	public void setIsSelected(boolean isSelected) {
 		this.isSelected = isSelected;
@@ -30,7 +29,6 @@ public class Option {
 		return text;
 	}
 
-	
 	public void setText(String option) {
 		this.text = option;
 	}
@@ -42,10 +40,7 @@ public class Option {
 	public void setIsCorrect(boolean isCorrect) {
 		this.isCorrect = isCorrect;
 	}
-
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
+	
 	@Override
 	public String toString() {
 		return "\nOption [text=" + text + ", isCorrect=" + isCorrect + ", isSelected= " + isSelected + "]";
