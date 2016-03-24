@@ -1,9 +1,7 @@
 package model;
-
 import java.util.ArrayList;
 
 public class Question {
-
 	private String text;
 	private ArrayList<Option> options = new ArrayList<Option>();
 	
@@ -16,17 +14,14 @@ public class Question {
 	public String getText() {
 		return text;
 	}
-
 	
 	public void setText(String question) {
 		this.text = question;
 	}
 
-
 	public ArrayList<Option> getOptions() {
 		return options;
 	}
-
 
 	public void setOptions(ArrayList<Option> options) {
 		this.options = options;
@@ -36,7 +31,10 @@ public class Question {
 	public String toString() {
 		return "\nQuestion [question=" + text + ", options=" + options + "]";
 	}
-	
+	/**
+	 * I have an ArrayList of questions and any question has an ArrayList of answers
+	 */
+	 
 	public static ArrayList<Question> provideQuestions() {
 		ArrayList<Question> questions = new ArrayList<Question>();
 		
